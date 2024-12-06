@@ -34,16 +34,56 @@ main article{
 .perfil{
     text-align: center;
     justify-content: center;
-    margin-top: 10px;
-    margin-right: 500px;
-    margin-bottom: 1px;
-    margin-left: 500px;
-    border-radius: 40px;
-    box-shadow:2px 2px 8px var(--cor1);
+    padding: 20px;
     
 }
+.perfil img{
+    width: 200px;
+    border-radius: 100px;
+    box-shadow: 2px 2px 8px var(--cor1);
+}
+.perfil img:hover{
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.bookcard{
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px var(--cor1);
+    background-color: var(--cor2);
+}
+.bookcard img{
+    margin: 10px;
+    width: 200px;
+    
+    box-shadow: 2px 2px 8px var(--cor1);
+}
+.bookcard img:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+
+.bookinfo{
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px var(--cor1);
+    background-color: var(--cor2);
+}
+.bookinfo h3{
+    text-align: center;
+    margin: 10px;
+}
+.bookinfo p {
+    text-align: center;
+    margin: 10px;
+}
 footer{
-    margin: 120px;
+    margin: 115px;
     background-color: white;
     border-radius: 0 0 20px 20px;
     box-shadow: 2px 2px 8px;
