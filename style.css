@@ -38,7 +38,7 @@ main article{
     
 }
 .perfil img{
-    width: 200px;
+    width: 160px;
     border-radius: 100px;
     box-shadow: 2px 2px 8px var(--cor1);
 }
@@ -57,8 +57,8 @@ main article{
 }
 .bookcard img{
     margin: 10px;
-    width: 200px;
-    
+    width: 150px;
+    padding: auto;
     box-shadow: 2px 2px 8px var(--cor1);
 }
 .bookcard img:hover{
@@ -67,22 +67,34 @@ main article{
 }
 
 .bookinfo{
-    display: inline-block;
-    margin: 5px;
-    padding: 5px;
-    border-radius: 8px;
-    box-shadow: 2px 2px 8px var(--cor1);
-    background-color: var(--cor2);
+    background-color: white;
+    margin: 85px;
+    box-shadow: 2px 4px 4px  var(--cor1);
+    border-radius: 20px;
+    text-align: center;
+    padding-left: 120px;
+    padding-right: 10px;
 }
 .bookinfo h3{
     text-align: center;
     margin: 10px;
 }
 .bookinfo p {
-    text-align: center;
-    margin: 10px;
+    text-align: justify;
+    
+}
+.bookinfo a{
+    display: grid;
+    text-decoration: none;
+    margin: auto;
+}
+.bookinfo a:hover{
+    color: blue;
+    transform: scale(0.4);
+    transition: 0.4;
 }
 footer{
+    padding: 20px;
     margin: 115px;
     background-color: white;
     border-radius: 0 0 20px 20px;
@@ -110,4 +122,21 @@ footer h2{
     text-align: center;
     margin: 10px;
     padding-top: 10px;
+}
+@media (max-width: 1010px) {
+
+}
+@media(max-width:720){
+    main{
+        margin: 20px;
+    }
+    .perfil img{
+       width :120px;
+    }
+    .bookcard img{
+        width: 120px;
+    }
+}
+@media(max-width:480px){
+
 }
