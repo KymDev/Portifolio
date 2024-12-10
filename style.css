@@ -11,6 +11,18 @@
 body{
     background-image: linear-gradient(to right,var(--cor1),var(--cor2));
 }
+.sobre{
+    background-color: aliceblue;
+    margin: 0px 75px 50px;
+    padding: 10px;
+    text-align: justify;
+    box-shadow: 2px 2px 4px var(--cor1);
+    border-radius: 20px;
+}
+.sobre ul li{
+    padding: 2px;
+    margin: 10px;
+}
 mark{
     background-color: greenyellow;
 }
@@ -48,7 +60,7 @@ main article{
     transition: 0.5s;
 }
 .booksec{
-    padding: 20px;
+    padding: 36px;
     margin: auto;
     text-align: center;
 }
@@ -76,20 +88,20 @@ main article{
 }
 
 .bookinfo{
-
+    position: inherit;
     background-color: white;
-    padding: 44px;
+    padding: 44px 44px 30px 44px ;
     box-shadow: 2px 4px 4px var(--cor1);
     border-radius: 20px;
     text-align: justify;
-    margin: 250px 90px 190px 190px;
+    margin: 27px 90px 62px 207px;
     text-indent: 15px;
 }
 .bookinfo h3{
     text-align: center;
     margin: 10px;
 }
-.bookinfo p {
+.booktext{
     background-color:rgba(248, 245, 245, 0.589) ;
     padding: 5px;
     margin: 6px;
