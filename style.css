@@ -126,13 +126,24 @@ footer{
     border-radius: 0 0 20px 20px;
     box-shadow: 2px 2px 8px;
 }
+footer .copyright {
+    text-align: center;
+    color: var(--cor1);
+    font-size: 0.9rem;
+    margin-top: 15px;
+    margin: 10px 0 -33px 0;
+    padding-bottom: 10px;
+    
+}
+
 
 footer ul li{
     margin: 10px 0 ;
-    display:flex ;
+    display:inline ;
     align-items:center ;
     justify-content: center;
     gap: 10px;
+    padding-bottom: 10px
 }
 
 footer ul li a {
@@ -150,7 +161,10 @@ footer h2{
     padding-top: 10px;
 }
 @media (max-width: 1010px) {
-
+    .sobre{
+        margin: 0px 40px 50px;
+        padding: 15px;
+    }
 }
 @media(max-width:720px){
     main{
@@ -165,4 +179,15 @@ footer h2{
 }
 @media(max-width:480px){
 
+}
+@media(max-width:360px){
+    main{
+        margin: 20px;
+    }
+    .perfil img{
+       width :100px;
+    }
+    .bookcard img{
+        width: 100px;
+    }
 }
