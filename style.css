@@ -11,6 +11,9 @@
 body{
     background-image: linear-gradient(to right,var(--cor1),var(--cor2));
 }
+
+   
+
 .raposa{
     display: flex;
     justify-content: center;
@@ -64,6 +67,7 @@ main article{
     text-align: center;
     justify-content: center;
     padding: 20px;
+    margin: 20px;
     
 }
 .perfil img{
@@ -136,6 +140,22 @@ main article{
     transition: 0.4;
 }
 
+picture .galeria img{
+      
+    display: flex;
+    flex-wrap: wrap;
+}
+.galeria img{
+    width: 90px;
+    margin: 10px;
+    padding: 10px;
+  
+ 
+}
+.galeria img:hover{
+    transform: scale(1.2);
+    transition: 0.3s;
+}
 
 footer{
     padding: 20px;
@@ -233,6 +253,11 @@ footer h2{
         font-size: 1.2rem;
         padding: 25px;
     }
+    .galeria img{
+        width: 90px;
+        margin: 10px;
+        padding: 10px;
+      
  
     }
     footer {
@@ -261,7 +286,7 @@ footer h2{
         font-size: 1.1rem;
         transform: translateY(15px);
     }    
-}
+
 
 @media (max-width: 1280px) {
     main {
@@ -308,6 +333,11 @@ footer h2{
         font-size: 1.1rem;
         padding: 20px;
     }
+    .galeria img{
+        width: 110px;
+        margin: -4px;
+        padding: 0px;
+    }    
 
     footer {
         margin: 30px;
@@ -378,7 +408,87 @@ footer h2{
         font-size: 1rem;
         padding: 18px;
     }
+    .galeria img{
+        width: 120px;
+        margin: 18px;
+        padding: 0px;
+    }    
+    footer {
+        margin: 20px;
+        padding: 20px;
+        font-size: 1rem;
+    }
 
+    footer h2 {
+        font-size: 1.4rem;
+    }
+
+    footer img {
+        width: 30px;
+
+    }
+
+    footer ul li {
+        font-size: 1rem;
+        padding: 5px;
+        display: block;
+    }
+
+    footer .copyright {
+        font-size: 1rem;
+        transform: translateY(6px);
+    }
+}
+@media (max-width: 900px) {
+    main {
+        margin: 20px;
+        padding: 20px;
+    }
+    .raposa img{
+        width: 120px;
+    }
+    .perfil img {
+        width: 130px;
+    }
+
+    .sobre {
+        margin: 25px;
+        padding: 20px;
+    }
+
+    .sobre p {
+        font-size: 1.1rem;
+    }
+
+    .bookcard img {
+        width: 120px;
+    }
+
+    .bookinfo {
+        margin: 20px;
+        padding: 15px;
+    }
+
+    .bookinfo h3 {
+        font-size: 1.1rem;
+        margin: 15px;
+    }
+
+    .bookinfo p {
+        font-size: 1.1rem;
+        margin: 12px;
+        text-indent: 15px;
+    }
+
+    .bookinfo a {
+        font-size: 1rem;
+        padding: 18px;
+    }
+    .galeria img{
+        width: 110px;
+        margin: 10px;
+        padding: 0px;
+    }    
     footer {
         margin: 20px;
         padding: 20px;
@@ -450,6 +560,11 @@ footer h2{
         font-size: 1rem;
         padding: 18px;
     }
+    .galeria img{
+        width: 80px;
+        margin: 18px;
+        padding: 0px;
+      
 
     footer {
         margin: 20px;
@@ -476,74 +591,94 @@ footer h2{
 
 @media (max-width: 480px) {
     main {
-        margin: 20px;
-        padding: 20px;
-    }
-    .raposa img{
-        width: 100px;
-    }
-    .perfil img {
-        width: 115px;
-    }
-
-    .sobre {
-        margin: 20px;
-        padding: 18px;
-    }
-
-    .sobre p {
-        font-size: 1rem;
-    }
-
-    .bookcard img {
-        width: 100px;
-    }
-
-    .bookinfo {
-        margin: 15px;
+        margin: 10px;
         padding: 10px;
     }
 
-    .bookinfo h3 {
+    .raposa img,
+    .bookcard img,
+    footer img {
+        width: 80px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .perfil img {
+        width: 90px;
+        height: auto;
+    }
+
+    .sobre {
         margin: 10px;
+        padding: 10px;
+        
+    }
+
+    .sobre p {
+        font-size: 0.9rem;
+        line-height: 1.4;
+        word-spacing: -2px;
+        
+    }
+
+    .bookinfo {
+        margin: 10px;
+        padding: 8px;
+    }
+
+    .bookinfo h3 {
+        font-size: 1rem;
+        margin: 8px;
     }
 
     .bookinfo p {
-        font-size: 1rem;
-        margin: 10px;
-        text-indent: 12px;
+        font-size: 0.9rem;
+        margin: 8px;
+        text-indent: 10px;
+        word-spacing: -2px;
     }
 
     .bookinfo a {
-        font-size: 1rem;
-        padding: 15px;
+        font-size: 0.9rem;
+        padding: 10px;
+    }
+    .galeria img{
+        width: 50px;
+        margin: 5px 5px 5px 7px;
+        padding: 5px;
     }
 
     footer {
-        margin: 15px;
-        padding: 15px;
-        font-size: 0.9rem;
+        margin: 10px;
+        padding: 10px;
+        font-size: 0.8rem;
+        text-align: center;
     }
 
     footer h2 {
-        font-size: 1.2rem;
+        font-size: 1rem;
+        transform: translateY(-6px);
     }
-
-    footer img {
-        width: 30px;
+    footer img{
+        width: 25px;
+        display: grid;
+        margin: auto;
+        padding: 1px;
     }
 
     footer ul li {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
     }
 
     footer .copyright {
-        font-size: 0.9rem;
+        font-size: 0.8rem;
+        transform: translateY(-2px);
     }
 }
 
 
-@media (max-width: 360px) {
+
+@media (max-width: 390px) {
     main {
         margin: 10px;
         padding: 10px;
@@ -561,6 +696,7 @@ footer h2{
     }
     .sobre p{
         font-size: 0.9rem;
+        word-spacing: normal;
     }
 
     .bookcard img {
@@ -575,13 +711,15 @@ footer h2{
     .bookinfo h3{
         text-align: center;
         margin: 5px;
+        transform: translateY(50px);
     }
     .bookinfo p{
-        font-size: 1rem;
+        font-size: 0.8rem;
         margin: 5px;
         padding: 2px;
         text-align: justify;
-        text-indent: 10px;
+        text-indent: 100px;
+        word-spacing: normal;
     }
     .bookinfo a {
         font-size: 0.9rem;
@@ -590,7 +728,11 @@ footer h2{
         padding: 12px;
         text-decoration: none;
     }
-
+    .galeria img{
+        width: 40px;
+        margin: 5px 5px 5px 7px;
+        padding: 5px;
+    }
     footer {
         margin: 10px;
         padding: 10px;
