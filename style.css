@@ -286,7 +286,7 @@ footer h2{
         font-size: 1.1rem;
         transform: translateY(15px);
     }    
-
+}
 
 @media (max-width: 1280px) {
     main {
