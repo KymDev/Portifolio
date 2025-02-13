@@ -1,0 +1,252 @@
+:root {
+    --primary-bg-color: #121212;
+    --primary-text-color: #E0E0E0;
+    --header-bg-color: linear-gradient(135deg, #1F1F1F, #2A2A2A);
+    --highlight-color: #FFD700;
+    --button-bg-color: #FFD700;
+    --button-hover-color: #E6B800;
+    --tech-item-bg-color: #1E1E1E;
+    --project-card-bg-color: #1C1C1C;
+    --book-card-bg-color: #1E1E1E;
+    --footer-bg-color: #1F1F1F;
+    --light-bg-color: #2E2E2E;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+    line-height: 1.6;
+    overflow-x: hidden;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .header {
+    background: var(--header-bg-color);
+    padding: 3rem 0;
+    text-align: center;
+    border-bottom: 4px solid var(--highlight-color);
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid var(--highlight-color);
+    object-fit: cover;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: var(--highlight-color);
+    margin: 10px 0;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+  
+  .intro {
+    font-size: 1rem;
+    margin-top: 10px;
+    opacity: 0.9;
+  }
+  
+  .nav-buttons {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    background: var(--button-bg-color);
+    color: #001F54;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background: var(--button-hover-color);
+  }
+  
+  .section {
+    padding: 4rem 0;
+  }
+  
+  .bg-light {
+    background: var(--light-bg-color);
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--highlight-color);
+  }
+  
+  .tech-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .tech-list li {
+    background: var(--tech-item-bg-color);
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 20px;
+  }
+  
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .project-card {
+    background: var(--project-card-bg-color);
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 15px;
+    text-align: center;
+    transition: transform 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .project-image-link {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-image-link:hover {
+    transform: translateY(-3px);
+  }
+  
+  .project-image-link img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .project-image-link:hover img {
+    transform: scale(1.03);
+  }
+  
+  .project-links {
+    margin-top: 15px;
+  }
+  
+  .books {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .book-card {
+    width: 250px;
+    background: var(--book-card-bg-color);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  .book-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .footer {
+    background: var(--footer-bg-color);
+    padding: 3rem 0;
+    text-align: center;
+    border-top: 4px solid var(--highlight-color);
+  }
+  
+  .social-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+  }
+  
+  .social-links li {
+    margin: 0 15px;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-links li:hover {
+    transform: scale(1.1);
+  }
+  
+  .social-links a {
+    text-decoration: none;
+    color: var(--highlight-color);
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #FFFFFF;
+  }
+  
+  @media (max-width: 768px) {
+    .social-links {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .social-links li {
+      margin: 10px 0;
+    }
+  }
+  
+  /* Opcional: Overlay nas imagens */
+  /*
+  .project-image-link::after {
+    content: "Ver Projeto →";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    color: var(--highlight-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    font-weight: bold;
+    font-size: 1.2rem;
+  }
+  
+  .project-image-link:hover::after {
+    opacity: 1;
+  }
+  */

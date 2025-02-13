@@ -1,113 +1,191 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Página pessoal de Franklin P. Souza, desenvolvedor e entusiasta de tecnologia. Descubra seus projetos e livros publicados.">
-
-    <title>Portifólio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="Gitperfil-icon200.png" type="image/x-icon">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio de Franklin P. Souza - Desenvolvedor Full Stack, Analista de Dados e Escritor.">
+  <title>Franklin P. Souza - Portfólio</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
-<body> 
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <img src="img/perfil frank.jpg" alt="Franklin P. Souza" class="profile-img">
+      <h1>Franklin P. Souza</h1>
+      <p class="subtitle">Desenvolvedor Full Stack | Analista de Dados | Escritor</p>
+      <p class="intro">Apaixonado por tecnologia e inovação, transformo ideias em soluções digitais com foco em eficiência, qualidade e design moderno.</p>
+      <nav class="nav-buttons">
+        <a href="#frontend" class="btn">Front-end</a>
+        <a href="#backend" class="btn">Back-end</a>
+        <a href="#dados" class="btn">Análise de Dados</a>
+        <a href="#tecnologias" class="btn">Tecnologias</a>
+        <a href="#projetos" class="btn">Projetos</a>
+        <a href="#livros" class="btn">Minhas Obras</a>
+      </nav>
+    </div>
+  </header>
 
-    <main>
+  <!-- Seção: Front-end -->
+  <section id="frontend" class="section">
+    <div class="container">
+      <h2>Front-end</h2>
+      <p>Desenvolvo interfaces modernas e responsivas com HTML, CSS e Bootstrap, criando experiências de usuário intuitivas e visualmente atraentes. Utilizo um pouco de JavaScript para agregar interatividade, garantindo uma navegação fluida e de qualidade em todas as plataformas.</p>
+    </div>
+  </section>
 
-        <section>
-            
-            <picture class="raposa">
-                <img src="cruzeiro img/raposa_cruzeiro-removebg-preview.png" alt="Logo da raposa">
-            </picture>
-            <h2>Quem sou eu?</h2>
-            <div class="perfil">
-                <img src="img/fotokim.png" alt="foto de perfil150">
+  <!-- Seção: Back-end -->
+  <section id="backend" class="section bg-light">
+    <div class="container">
+      <h2>Back-end</h2>
+      <p>Desenvolvo soluções de backend com Python, utilizando os frameworks Flask e Django. Realizo integrações de dados por meio de bibliotecas Python, com ênfase no MySQL como sistema de gerenciamento de banco de dados, utilizando o MySQL Workbench para modelagem e criação de bases de dados otimizadas.</p>
+    </div>
+  </section>
+
+  <!-- Seção: Análise de Dados -->
+  <section id="dados" class="section">
+    <div class="container">
+      <h2>Análise de Dados</h2>
+      <p>Transformo dados em insights estratégicos usando Python, Pandas, SQL e técnicas de Data Science, com suporte de Jupyter Notebook e Google Colab. Estou ampliando meus conhecimentos com Power BI e outras ferramentas do ecossistema Python.</p>
+    </div>
+  </section>
+
+  <!-- Seção: Tecnologias -->
+  <section id="tecnologias" class="section bg-light">
+    <div class="container">
+      <h2>Tecnologias que utilizo</h2>
+      <ul class="tech-list">
+        <li>HTML5, CSS3, Bootstrap, JavaScript</li>
+        <li>Python (Django, Flask)</li>
+        <li>SQL (MySQL, MySQL Workbench)</li>
+        <li>Pandas, NumPy, Matplotlib</li>
+        <li>Jupyter Notebook, Google Colab, Power BI (em aprendizado)</li>
+        <li>VSCode</li>
+        <li>Git, GitHub</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Seção: Projetos -->
+  <section id="projetos" class="section">
+    <div class="container">
+      <h2>Projetos</h2>
+      
+      <!-- Projetos Web -->
+      <h3>Projetos Web</h3>
+      <div class="projects">
+        <div class="project-card">
+            <a href="projects/front/frontbizzap.png" target="_blank" class="project-image-link">
+              <img src="projects/front/frontbizzap.png" alt="Projeto BizZap">
+            </a>
+            <h4>Projeto BizZap</h4>
+            <p>BizZap oferece ferramentas para automatizar a comunicação com os clientes via WhatsApp, prever a necessidade de reposição de estoque com base em dados preditivos, e utilizar um chatbot inteligente para atendimento 24/7.</p>
+            <div class="project-links">
+              <a href="https://github.com/KymDev/BizZap" target="_blank" class="btn">GitHub</a>
+              <a href="https://kymdev.github.io/BizZap/" target="_blank" class="btn">Ver Ao Vivo</a>
             </div>
-            <article class="sobre">
-                <p><code>Olá, Mundo!</code>
-                <p>Meu nome é <strong>Franklin P. Souza</strong>, sou formado em <strong>Análise e Desenvolvimento de Sistemas</strong> e um grande entusiasta da tecnologia. No universo da programação, me apaixonei especialmente pela linguagem <mark>Python</mark>, que estudo há cerca de um ano, sempre buscando me aperfeiçoar. Além disso, exploro outras ferramentas de programação que me ajudam a ampliar meu conhecimento.</p>
-                
-                <p>Atualmente, estou expandindo meus conhecimentos em algumas das principais tecnologias do desenvolvimento web, como:</p>
-                <ul>
-                    <li><abbr title="HyperText Markup Language">HTML</abbr> para estruturação de páginas;</li>
-                    <li><abbr title="Cascading Style Sheets">CSS</abbr> para estilização;</li>
-                    <li><mark>Django</mark> como framework para aplicações web robustas;</li>
-                    <li><abbr title="sistema de gerenciamento de banco de dados ">MySQL</abbr> para gerenciamento de banco de dados.</li>
-                </ul>
-            
-                <p>Além disso, tenho uma base sólida em <abbr title="Hypertext Preprocessor">PHP</abbr>, que me permite desenvolver projetos dinâmicos.</p>
-                
-                <p>Em análise de dados, estou explorando o uso das bibliotecas <mark>Pandas</mark> e <mark>NumPy</mark>, que transformam dados brutos em informações valiosas para tomar decisões informadas.</p>
-            </article>
-            
-        </section>
-        <section class="project">
-            <h2>Projetos</h2>
-            <div class="cardpy">
-                
-            </div>
-            <div class="htmlcss">
-
-            </div>
-        </section>
-        <section class="booksec">
-            <div class="bookcard">
-                <h2>Obras Publicadas</h2>
-                <img src="capalivro/AS folhas daqueles dias.png" alt="Capa do livro as folhas daqueles dias">
-                <div class="bookinfo">
-                    <h3>As Folhas Daqueles Dias</h3>
-                    <p class="booktext">
-                        As Folhas Daqueles Dias é uma jornada emocional que atravessa os mistérios do amor, da perda e do amadurecimento. Acompanhamos Cho, um jovem marcado por lembranças e dúvidas, cuja vida se entrelaça com a de Hope, uma garota enigmática que o faz questionar seus sentimentos mais profundos. Em uma cidade que guarda segredos e entre encontros e despedidas, Cho tenta entender o que é o amor e o que ele realmente significa em sua vida.
-                    </p>
-                    <a href="https://www.amazon.com/dp/1700255878" target="_blank">Saiba mais</a>
-                </div>
-            </div>
-            <div class="bookcard">
-                <img src="capalivro/republica soberana do brasil.png" alt="Capa do Livro Republica Soberana">
-                <div class="bookinfo">
-                    <h3>Republica Soberana do Brasil</h3>
-                    <p class="booktext">
-                        Vivemos em uma era onde a tecnologia redefine os limites da nossa existência. Fronteiras antes intransponíveis são dissolvidas pela digitalização, e novos conceitos de soberania e cidadania emergem nesse cenário. A "República Soberana do Brasil" é uma resposta a esse novo mundo, uma nação criada para existir no ambiente digital, onde a liberdade de expressão e o direito à informação são protegidos acima de tudo.
-                    </p>
-                    <a href="https://www.amazon.com/dp/650113532X" target="_blank">Saiba mais</a>
-                </div>
-            </div>
-        </section>
-    </main>
-    
-    
-
-</body>
-    <picture class="galeria">
-        <img src="cruzeiro img/raposa_cruzeiro-removebg-preview.png" alt="">
-        <img src="cruzeiro img/raposa_cruzeiro-removebg-preview.png" alt="">
-        <img src="cruzeiro img/raposa_cruzeiro-removebg-preview.png" alt="">
-        <img src="cruzeiro img/raposa_cruzeiro-removebg-preview.png" alt="">
-        <img src="cruzeiro img/raposa_cruzeiro-removebg-preview.png" alt="">
-        <img src="cruzeiro img/raposa_cruzeiro-removebg-preview.png" alt="">
-        <img src="cruzeiro img/raposa_cruzeiro-removebg-preview.png" alt="">
-        <img src="cruzeiro img/raposa_cruzeiro-removebg-preview.png" alt="">
-        <img src="cruzeiro img/raposa_cruzeiro-removebg-preview.png" alt="">
-        <img src="cruzeiro img/raposa_cruzeiro-removebg-preview.png" alt="">
-        <img src="cruzeiro img/raposa_cruzeiro-removebg-preview.png" alt="">
-        <img src="cruzeiro img/raposa_cruzeiro-removebg-preview.png" alt="">
-
-
-    </picture>
-
-<footer>
-    
-
-    <h2 >Como falar comigo?</h2>
-        <div>
-            <ul>
-                <li><img src="img/icone-github.png" alt="git"><a href="https://github.com/KymDev" target="_blank" rel="externo">/KymDev</a> - Acesse meu repositorio no GitHub</li>
-                <li><img src="img/icone-linkedin.png" alt="linkd"><a href="https://www.linkedin.com/in/kymdev/" target="_blank" rel="externo">/Kymdev</a> - Me adiciona lá no LinkedIn</li>
-                <li><img src="img/icone-instagram.png" alt="inst"><a href="https://www.instagram.com/eusou_kim/" target="_blank" rel="externo">/Eusou_kim</a> - Me segue lá no Instagram</li>
-            
-            </ul>
-            
         </div>
-        <p class="copyright">© <span id="2024"></span> Franklin P.Souza. Todos os direitos reservados.</p>
-</footer>
+
+        <div class="project-card">
+            <a href="projects/front/frontbizzap.png" target="_blank" class="project-image-link">
+              <img src="projects/front/frontbizzap.png" alt="Projeto BizZap">
+            </a>
+            <h4>Projeto BizZap</h4>
+            <p>BizZap oferece ferramentas para automatizar a comunicação com os clientes via WhatsApp, prever a necessidade de reposição de estoque com base em dados preditivos, e utilizar um chatbot inteligente para atendimento 24/7.</p>
+            <div class="project-links">
+              <a href="https://github.com/KymDev/BizZap" target="_blank" class="btn">GitHub</a>
+              <a href="https://kymdev.github.io/BizZap/" target="_blank" class="btn">Ver Ao Vivo</a>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <a href="projects/front/frontbizzap.png" target="_blank" class="project-image-link">
+              <img src="projects/front/frontbizzap.png" alt="Projeto BizZap">
+            </a>
+            <h4>Projeto BizZap</h4>
+            <p>BizZap oferece ferramentas para automatizar a comunicação com os clientes via WhatsApp, prever a necessidade de reposição de estoque com base em dados preditivos, e utilizar um chatbot inteligente para atendimento 24/7.</p>
+            <div class="project-links">
+              <a href="https://github.com/KymDev/BizZap" target="_blank" class="btn">GitHub</a>
+              <a href="https://kymdev.github.io/BizZap/" target="_blank" class="btn">Ver Ao Vivo</a>
+            </div>
+          </div>
+        
+        
+        <!-- Adicione mais projetos web -->
+      </div>
+
+      <!-- Projetos de Back-end -->
+      <h3>Projetos de Back-end</h3>
+      <div class="projects">
+        <div class="project-card">
+          <a href="https://api-x-docs.com" target="_blank" class="project-image-link">
+            <img src="projects/backend/api-x-screenshot.png" alt="Projeto API X">
+          </a>
+          <h4>Projeto API X</h4>
+          <p>API RESTful construída com Node.js, Express e MongoDB. Documentada com Swagger e focada na escalabilidade e segurança.</p>
+          <div class="project-links">
+            <a href="https://github.com/KymDev/api-x" target="_blank" class="btn">GitHub</a>
+            <a href="https://api-x-docs.com" target="_blank" class="btn">Documentação</a>
+          </div>
+        </div>
+        <!-- Adicione mais projetos backend -->
+      </div>
+
+      <!-- Projetos de Análise de Dados -->
+      <h3>Projetos de Análise de Dados</h3>
+      <div class="projects">
+        <div class="project-card">
+          <a href="https://analise-vendas-demo.com" target="_blank" class="project-image-link">
+            <img src="projects/dados/analise-vendas.png" alt="Análise de Vendas">
+          </a>
+          <h4>Análise de Vendas</h4>
+          <p>Análise de dados de vendas utilizando Python, Pandas e Plotly, com insights estratégicos para otimização de negócios.</p>
+          <div class="project-links">
+            <a href="https://github.com/KymDev/analise-vendas" target="_blank" class="btn">GitHub</a>
+            <a href="https://analise-vendas-demo.com" target="_blank" class="btn">Ver Dashboard</a>
+          </div>
+        </div>
+        <!-- Adicione mais projetos de dados -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção: Minhas Obras -->
+  <section id="livros" class="section bg-light">
+    <div class="container">
+      <h2>Minhas Obras</h2>
+      <div class="books">
+        <div class="book-card">
+          <img src="capalivro/AS folhas daqueles dias.png" alt="As Folhas Daqueles Dias">
+          <h3>As Folhas Daqueles Dias</h3>
+          <p>Uma jornada emocional sobre amor, perda e amadurecimento.</p>
+          <a href="https://www.amazon.com/dp/1700255878" target="_blank" class="btn">Saiba Mais</a>
+        </div>
+        <div class="book-card">
+          <img src="capalivro/republica soberana do brasil.png" alt="República Soberana do Brasil">
+          <h3>República Soberana do Brasil</h3>
+          <p>Uma nação digital onde a liberdade e a informação são fundamentais.</p>
+          <a href="https://www.amazon.com/dp/650113532X" target="_blank" class="btn">Saiba Mais</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <h2>Vamos nos conectar!</h2>
+      <ul class="social-links">
+        <li><a href="https://github.com/KymDev" target="_blank">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/kymdev/" target="_blank">LinkedIn</a></li>
+        <li><a href="https://www.instagram.com/eusou_kim/" target="_blank">Instagram</a></li>
+      </ul>
+      <p>© <span id="year"></span> Franklin P. Souza. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
 </html>
