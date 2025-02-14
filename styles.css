@@ -226,27 +226,4 @@
     }
   }
   
-  /* Opcional: Overlay nas imagens */
-  /*
-  .project-image-link::after {
-    content: "Ver Projeto →";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.6);
-    color: var(--highlight-color);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    font-weight: bold;
-    font-size: 1.2rem;
-  }
-  
-  .project-image-link:hover::after {
-    opacity: 1;
-  }
-  */
+ 
